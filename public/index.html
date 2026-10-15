@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>geo-hotline demo</title>
+<style>
+  body { font: 16px/1.5 system-ui, sans-serif; max-width: 40rem; margin: 2rem auto; padding: 0 1rem; }
+  .hotline-line { display: block; }
+  .warn { background: #fff4e5; border: 1px solid #f0b36b; padding: .6rem .8rem; border-radius: 6px; }
+</style>
+</head>
+<body>
+<h1>geo-hotline demo</h1>
+<p class="warn">All numbers in <code>hotlines.json</code> are fictional placeholders. Never ship them.</p>
+<p>What to do right now:</p>
+<ol>
+  <!-- Server-rendered default: what crawlers, no-JS visitors and failed lookups see. -->
+  <li data-hotline data-lang="en">Poison help line: <a href="tel:+15550100">Example Poison Line: +1 555 0100</a></li>
+  <li data-hotline data-lang="fr">Ligne d'aide antipoison : appelez le vétérinaire d'urgence le plus proche.</li>
+</ol>
+<p>Open <code>/api/geo</code> to see what the server thinks your country is.</p>
+<script src="/geo.js"></script>
+<script src="/hotline.js" data-hotline-src="/hotlines.json"></script>
+</body>
+</html>

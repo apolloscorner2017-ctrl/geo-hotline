@@ -1,0 +1,8 @@
+{
+  "name": "geo-hotline",
+  "version": "1.0.0",
+  "description": "Dependency-free, fail-safe pattern for showing visitors the right phone line for their country on a static site.",
+  "license": "MIT",
+  "private": true,
+  "scripts": { "test": "node --test test/*.test.js" }
+}

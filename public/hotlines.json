@@ -1,0 +1,37 @@
+{
+  "_note": "SAMPLE DATA. Every number below is fictional (555 / all-zero ranges). Replace with numbers you verified on each line operator's own official site.",
+  "strings": {
+    "en": {
+      "heading": "Poison help line",
+      "fallback": "Call your local emergency number or your nearest emergency vet now.",
+      "cost_free": "free",
+      "cost_fee": "fee applies",
+      "cost_fee_may": "fee may apply",
+      "hours_247": "24/7"
+    },
+    "fr": {
+      "heading": "Ligne d'aide antipoison",
+      "fallback": "Appelez le numéro d'urgence local ou le vétérinaire d'urgence le plus proche maintenant.",
+      "cost_free": "gratuit",
+      "cost_fee": "payant",
+      "cost_fee_may": "peut être payant",
+      "hours_247": "24h/24, 7j/7"
+    }
+  },
+  "countries": {
+    "US": { "lines": [
+      { "name": "Example Poison Line", "phone": "+1 555 0100", "tel": "+15550100", "cost": "fee", "hours": "24/7" },
+      { "name": "Example Pet Helpline", "phone": "+1 555 0101", "tel": "+15550101", "cost": "fee_may", "hours": "24/7" }
+    ] },
+    "FR": { "lines": [
+      { "name": "Ligne Exemple", "phone": "+33 1 00 00 00 00", "tel": "+33100000000", "cost": "fee", "hours": "24h/24" }
+    ] },
+    "AU": { "lines": [
+      { "name": "Example Poison Line AU", "phone": "1300 000 000", "tel": "1300000000", "cost": "fee_may", "hours": "24/7" }
+    ] },
+    "BR": { "lines": [
+      { "name": "Linha Exemplo", "phone": "0800 000 0000", "tel": "08000000000", "cost": "free", "hours": "24/7" }
+    ] },
+    "ES": { "lines": [] }
+  }
+}
